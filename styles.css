@@ -779,3 +779,22 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
     color: #ff1593;
     font-weight: bolder;
 }
+
+
+
+
+
+
+/* Apply basic styles to the section */
+.left-half-section {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Use media queries to set specific styles for desktop */
+@media only screen and (min-width: 1024px) {
+    .left-half-section {
+        width: 50%; /* Set width to 50% of the screen */
+        float: left; /* Float left to position on the left side */
+    }
+}

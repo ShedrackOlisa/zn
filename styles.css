@@ -812,8 +812,8 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
 
 @media only screen and (min-width: 1024px) {
     .right-half-section {
-        width: 38%; /* Set width to 50% of the screen */
-        float: right; /* Float left to position on the left side */
+        width: 60%; /* Set width to 50% of the screen */
+        float: left; /* Float left to position on the left side */
         
         padding: 15px;
         

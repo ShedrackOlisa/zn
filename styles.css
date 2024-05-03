@@ -807,9 +807,9 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
     
     
     .right-half-section {
-        width: 38%; /* Set width to 50% of the screen */
-        float: right; /* Float left to position on the left side */
-        top:3px;
+        width: 60%; /* Set width to 50% of the screen */
+        float: left; /* Float left to position on the left side */
+        
         /* padding: 15px; */
         
          border:2px solid #E0E0E0;
@@ -817,7 +817,7 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
     
      .right-half-section tr h3{
      float:left;
- }
+ }    
     
     
 }

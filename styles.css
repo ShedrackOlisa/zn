@@ -795,11 +795,13 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
 @media only screen and (min-width: 1024px) {
     .left-half-section {
         width: 60%; /* Set width to 50% of the screen */
-        float: left; /* Float left to position on the left side */
+        float: right; /* Float left to position on the left side */
         
         padding: 15px;
         
-         border:1px solid #E0E0E0;
+         border:2px solid #E0E0E0;
+         
+         top:2px;
     }
     
     
@@ -812,6 +814,10 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
         
          border:2px solid #E0E0E0;
     }
+    
+     .right-half-section tr h3{
+     float:left;
+ }
     
     
 }

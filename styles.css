@@ -799,7 +799,8 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
         
         padding: 15px;
         
-         border:2px solid #E0E0E0;
+         border-left:1px solid #E0E0E0;
+         border-right:1px solid #E0E0E0;
          
          
     }
@@ -812,7 +813,7 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
         
         /* padding: 15px; */
         
-         border:2px solid #E0E0E0;
+         border:1px solid #E0E0E0;
          
     }
     
@@ -820,9 +821,18 @@ section{width: 90%;margin:auto;overflow: hidden;font-size:13px;text-align:}
      float:left;
  }    
  
-
+.ads-half-section{
+    width: 60%; /* Set width to 50% of the screen */
+        float: left; /* Float left to position on the left side */
+        
+        padding: 15px;
+        
+         border-left:1px solid #E0E0E0;
+         border-right:1px solid #E0E0E0;
+}
     
 }
+
 
 
 

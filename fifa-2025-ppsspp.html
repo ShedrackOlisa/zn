@@ -348,18 +348,14 @@
 
 
     <!-- Play Game Button -->
-<div id="gameButton" data-link="https://eweconciliate.com/ba886hjhk9?key=089c32f5c0106a80f26dceea1d1ba125">
+<div id="gameButton">
     <i class="fas fa-gamepad"></i>
     <span>Play Game</span>
   </div>
   
   <script>
-    const gameButton = document.getElementById('gameButton');
-    gameButton.addEventListener('click', function() {
-      const link = gameButton.getAttribute('data-link');
-      if (link) {
-        window.location.href = link;
-      }
+    document.getElementById('gameButton').addEventListener('click', function() {
+      window.location.href = 'https://eweconciliate.com/ba886hjhk9?key=089c32f5c0106a80f26dceea1d1ba125';
     });
   </script>
   

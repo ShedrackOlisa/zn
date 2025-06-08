@@ -1987,3 +1987,43 @@ Blog Grid
       max-width: 100%; /* Even smaller image on very small screens */
     }
   }
+
+
+  #gameButton {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.4); /* Transparent black background */
+    padding: 5px 7px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+  }
+
+  #gameButton:hover {
+    transform: translateX(-50%) scale(1.05);
+  }
+
+  #gameButton i {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  #gameButton span {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+  }
+
+
+
+
+  

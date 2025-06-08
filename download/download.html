@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Downloads | GameHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>Game</span>Hub
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="download.html" class="active">Downloads</a></li>
+                <li><a href="#">Tournaments</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="btn login-btn">Login</button>
+                <button class="btn signup-btn">Sign Up</button>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="download-page">
+        <span class="game-description">
+             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091464318795402"
+     crossorigin="anonymous"></script>
+<!-- ZiphyNet Top -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1091464318795402"
+     data-ad-slot="6968033290"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </span>
+        <section class="download-header">
+            <h1>Game Downloads</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search games..." id="searchInput">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-options">
+                <div class="filter-group">
+                    <label for="genreFilter">Genre:</label>
+                    <select id="genreFilter">
+                        <option value="all">All Genres</option>
+                        <option value="action">Action</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="rpg">RPG</option>
+                        <option value="fps">FPS</option>
+                        <option value="sports">Sports</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="platformFilter">Platform:</label>
+                    <select id="platformFilter">
+                        <option value="all">All Platforms</option>
+                        <option value="android">Android</option>
+                        <option value="windows">Windows</option>
+                        <option value="mac">Mac</option>
+                        <option value="ios">iOS</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-downloads">
+            <!-- <h2>Popular Downloads</h2> -->
+            <div class="games-grid">
+                <!-- Game Card 1 - GTA San Andreas -->
+                <div class="game-card" data-genre="action" data-platform="android">
+                    <div class="game-badge">Trending</div>
+                    <img src="https://ziphynet.com/images/dls-2024.webp" alt="GTA San Andreas Cover">
+                    <div class="game-info">
+                        <h3>Grand Theft Auto: San Andreas</h3>
+                        <div class="game-meta">
+                            <span><i class="fas fa-download"></i> 2.4M+</span>
+                            <span><i class="fas fa-star"></i> 4.8/5</span>
+                            <span><i class="fas fa-sd-card"></i> 2.4GB</span>
+                        </div>
+                        <div class="download-options">
+                            <a href="https://www.mediafire.com/file/abc123/gta_sa_v1.0.apk/file" 
+                               class="btn download-btn" 
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               data-file="gta_sa_v1.0.apk" 
+                               data-size="2.4GB"
+                               onclick="trackDownload(this)">
+                                <i class="fas fa-download"></i> APK
+                            </a>
+                            <a href="https://www.mediafire.com/file/xyz456/gta_sa_data.zip/file" 
+                               class="btn secondary-btn" 
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               data-file="gta_sa_data.zip" 
+                               data-size="1.8GB"
+                               onclick="trackDownload(this)">
+                                <i class="fas fa-download"></i> Data
+                                <a href="https://www.mediafire.com/file/xyz456/gta_sa_data.zip/file" 
+                               class="btn secondary-btn" 
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               data-file="gta_sa_data.zip" 
+                               data-size="1.8GB"
+                               onclick="trackDownload(this)">
+                                <i class="fas fa-download"></i> Data
+                            </a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+        </section>
+
+        <section class="download-instructions">
+            <h2>How to Download & Install</h2>
+            <div class="instructions-grid">
+                <div class="instruction-step">
+                    <div class="step-number">1</div>
+                    <h3>Click Download Button</h3>
+                    <p>Click the download button for your desired game. This will open MediaFire in a new tab.</p>
+                </div>
+                <div class="instruction-step">
+                    <div class="step-number">2</div>
+                    <h3>Download from MediaFire</h3>
+                    <p>On MediaFire, click the "Download" button. You may need to wait a few seconds and complete a quick verification.</p>
+                </div>
+                <div class="instruction-step">
+                    <div class="step-number">3</div>
+                    <h3>Install the APK</h3>
+                    <p>After downloading, open the APK file and follow the installation prompts. You may need to enable "Unknown Sources" in settings.</p>
+                </div>
+                <div class="instruction-step">
+                    <div class="step-number">4</div>
+                    <h3>Extract Game Data (if needed)</h3>
+                    <p>For games with separate data files, extract the ZIP file to the Android/obb or Android/data folder.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Modal -->
+        <div class="modal" id="downloadModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 id="modalTitle">Download Started</h2>
+                <div class="download-info">
+                    <p><strong>File:</strong> <span id="fileName"></span></p>
+                    <p><strong>Size:</strong> <span id="fileSize"></span></p>
+                    <p>You are being redirected to MediaFire...</p>
+                    <p class="help-text">If the download doesn't start automatically, check your browser's pop-up settings or <a id="directLink" href="#" target="_blank">click here</a>.</p>
+                </div>
+                <div class="download-security">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>All files are scanned for viruses before uploading</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ZiphyNet</h3>
+                <p>The ultimate platform for mobile gamers. Download, play, and enjoy the best games.</p>
+                <div class="social-icons">
+                    <a href="https://t.me/ziphyweb/"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61574638782995"><i class="fab fa-facebook"></i></a>
+                    <a href="https://whatsapp.com/channel/0029VaXB0b90LKZCIoC39210"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.youtube.com/@Olitechgames"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="https://ziphynet.com/">Home</a></li>
+                    <li><a href="https://ziphynet.com/apk-games">APK Games</a></li>
+                    <li><a href="https://ziphynet.com/psp-games">PPSSPP Games</a></li>
+                    <li><a href="https://ziphynet.com/android-apps"> Android Apps</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="https://ziphynet.com/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="https://ziphynet.com/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="https://ziphynet.com/terms-of-service">Terms of Service</a></li>
+                    <li><a href="https://ziphynet.com/dmca-disclaimer">DMCA Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 - 2025 ZiphyNet. All rights reserved.</p>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Download tracking function
+        function trackDownload(link) {
+            const file = link.getAttribute('data-file');
+            const size = link.getAttribute('data-size');
+            const url = link.href;
+            
+            // Update modal
+            document.getElementById('fileName').textContent = file;
+            document.getElementById('fileSize').textContent = size;
+            document.getElementById('directLink').href = url;
+            document.getElementById('modalTitle').textContent = `Downloading ${file}`;
+            document.getElementById('downloadModal').style.display = 'block';
+            
+            // Track in console (replace with real analytics)
+            console.log(`Download initiated: ${file} (${size})`);
+            
+            // Example: Send to Google Analytics
+            // if (window.gtag) {
+            //     gtag('event', 'download', {
+            //         'file_name': file,
+            //         'file_size': size
+            //     });
+            // }
+            
+            // Allow the link to proceed
+            return true;
+        }
+        
+        // Close modal
+        document.querySelector('.close-modal').addEventListener('click', function() {
+            document.getElementById('downloadModal').style.display = 'none';
+        });
+        
+        // Close when clicking outside
+        window.addEventListener('click', function(event) {
+            if (event.target === document.getElementById('downloadModal')) {
+                document.getElementById('downloadModal').style.display = 'none';
+            }
+        });
+        
+        // Search and filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const genreFilter = document.getElementById('genreFilter');
+            const platformFilter = document.getElementById('platformFilter');
+            const gameCards = document.querySelectorAll('.game-card');
+            
+            function filterGames() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const genreValue = genreFilter.value;
+                const platformValue = platformFilter.value;
+                
+                gameCards.forEach(card => {
+                    const title = card.querySelector('h3').textContent.toLowerCase();
+                    const genre = card.getAttribute('data-genre');
+                    const platform = card.getAttribute('data-platform');
+                    
+                    const matchesSearch = title.includes(searchTerm) || searchTerm === '';
+                    const matchesGenre = genreValue === 'all' || genre === genreValue;
+                    const matchesPlatform = platformValue === 'all' || platform === platformValue;
+                    
+                    card.style.display = (matchesSearch && matchesGenre && matchesPlatform) ? 'block' : 'none';
+                });
+            }
+            
+            searchInput.addEventListener('input', filterGames);
+            genreFilter.addEventListener('change', filterGames);
+            platformFilter.addEventListener('change', filterGames);
+        });
+    </script>
+</body>
+</html>

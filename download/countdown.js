@@ -18,10 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.countdown-box').style.display = 'none';
             downloadLinkBox.style.display = 'block';
             
-            // Auto-click the download link after a short delay
-            setTimeout(function() {
-                downloadLink.click();
-            }, 500);
+            // Removed the auto-click functionality
         }
     }, 1000);
 });

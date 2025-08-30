@@ -34,7 +34,11 @@
        
     
          
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091464318795402"
+     crossorigin="anonymous"></script>
+         
     <script>(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('gizokraijaw.net',9427321,document.createElement('script'))</script>
+      
       
     <!-- Google tag (gtag.js) --> 
  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8RE53GZQPC"></script> 
@@ -80,7 +84,7 @@
                     <li><a href="https://ziphynet.com/apk-games">APK Games</a></li>
                     <li><a href="https://ziphynet.com/psp-games">PPSSPP Games</a></li>
                     <li><a href="https://ziphynet.com/android-apps"> Android Apps</a></li>
-                    <li><a href="#">Blog</a></li>
+                    
             </ul>
             <div class="nav-buttons">
                 <button id="theme-toggle" aria-label="Toggle dark mode">
@@ -121,6 +125,7 @@
         <section class="game-content">
             <div class="h2-line"></div>
             <div class="game-description">
+            
                 
                 
                 
@@ -224,29 +229,28 @@
 
 
 <div id="disqus_thread"></div>
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        
-        var disqus_config = function () {
-this.page.url = window.location.href;
+<script>
+var disqus_config = function () {
+    // Try to grab the canonical URL
+    var canonicalTag = document.querySelector("link[rel='canonical']");
+    var cleanUrl = canonicalTag ? canonicalTag.href : window.location.protocol + "//" + window.location.host + window.location.pathname.replace(/\/$/, "");
 
-// Extracts 'gta-san-andreas' from the URL path
-var pathParts = window.location.pathname.split('/');
-this.page.identifier = pathParts[pathParts.length - 1] || 'home';
-
-this.page.title = document.title;
+    this.page.url = cleanUrl; // canonical (or clean fallback)
+    this.page.identifier = new URL(cleanUrl).pathname.replace(/\/$/, ""); // identifier = path without trailing slash
 };
-        
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://apk-website.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://olitechghames.disqus.com/embed.js'; // Your Disqus shortname
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
 
     
     
@@ -271,7 +275,7 @@ this.page.title = document.title;
                 <li><a href="https://ziphynet.com/apk-games">APK Games</a></li>
                 <li><a href="https://ziphynet.com/psp-games">PPSSPP Games</a></li>
                 <li><a href="https://ziphynet.com/android-apps"> Android Apps</a></li>
-                <li><a href="#">Blog</a></li>
+                
                 <li><a href="https://ziphynet.com/contact">Contact</a></li>
             </ul>
         </div>

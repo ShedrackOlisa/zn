@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     image: 'https://m.media-amazon.com/images/I/71dO27CGGNL._SX522_.jpg',
                     title: '🎮 Best Mobile Game Controller',
                     text: 'Upgrade your gameplay with the MC2 Mobile Bluetooth Controller. Compatible with Android & iOS – perfect for modded games!',
-                    url: 'https://amzn.to/4l49fwr',
+                    url: 'https://grilledrationally.com/tqm8buuui3?key=666d71fd4d6056b67bf169a7dcbc20d4',
                     button: 'Buy Now'
                 },
                 {
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     image: 'https://m.media-amazon.com/images/I/71MHF+Wl03L._SX522_.jpg',
                     title: '🎮 Bluetooth Controller',
                     text: 'Bluetooth Controller for Switch/PC/iPhone/Android/Apple Arcade MFi Games/TV/Steam, Hall Effect Joysticks Wireless Game Controller Gamepad with/Phone Clip/Lock Speed/Macro/6-Axis Gyro/Dual Motors/Turbo',
-                    url: 'https://amzn.to/44fQaA6',
+                    url: 'https://grilledrationally.com/tqm8buuui3?key=666d71fd4d6056b67bf169a7dcbc20d4',
                     button: 'Buy Now'
                 },
                 {
@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     image: 'https://m.media-amazon.com/images/I/71788CmL7GL._AC_SX679_.jpg',
                     title: 'MSI Claw PC Gaming Handheld',
                     text: 'MSI Claw PC Gaming Handheld: Intel Ultra 7-155H, 7" FHD 120Hz Display, 16GB LPDDR5, 512GB NVMe SSD, MicroSD Card Reader, Thunderbolt 4, Win 11 Home: Black A1M-051US',
-                    url: 'https://amzn.to/44uiWOP',
+                    url: 'https://grilledrationally.com/tqm8buuui3?key=666d71fd4d6056b67bf169a7dcbc20d4',
                     button: 'Shop Deals'
                 },
                 {
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     image: 'https://m.media-amazon.com/images/I/81ec1gAtihL._AC_SX679_.jpg',
                     title: '🔥New Gaming Phone',
                     text: 'DOOGEE S Cyber Pro Rugged Phone',
-                    url: 'https://amzn.to/4kSkWWR',
+                    url: 'https://grilledrationally.com/tqm8buuui3?key=666d71fd4d6056b67bf169a7dcbc20d4',
                     button: 'Buy Now'
                 },
                 {
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     image: 'https://m.media-amazon.com/images/I/81-3FfpcwML._AC_SX679_.jpg',
                     title: '🔥New Gaming Laptop',
                     text: 'MSI Katana 15 15.6” 165Hz QHD Gaming Laptop: Intel Core i7-13620H, NVIDIA Geforce RTX 4070, 16GB DDR5, 1TB NVMe SSD, Cooler Boost 5, Win 11: Black B13VGK-2000US',
-                    url: 'https://amzn.to/4l6OkZu',
+                    url: 'https://grilledrationally.com/tqm8buuui3?key=666d71fd4d6056b67bf169a7dcbc20d4',
                     button: 'Check It Out'
                 },
                 {
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     image: 'https://m.media-amazon.com/images/I/61S0ZRxKJFL._SX522_.jpg',
                     title: '🔥PS5 Portal Remote',
                     text: 'PlayStation Portal Remote Player 5',
-                    url: 'https://amzn.to/4nl3Dj6',
+                    url: 'https://grilledrationally.com/tqm8buuui3?key=666d71fd4d6056b67bf169a7dcbc20d4',
                     button: 'Check It Out'
                 },
                 {
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     image: 'https://m.media-amazon.com/images/I/81Zy9oz+JtL._AC_SX679_.jpg',
                     title: '🎮 MSI Claw PC Gaming Handheld',
                     text: 'MSI Claw PC Gaming Handheld 50% off.',
-                    url: 'https://amzn.to/45xMU5z',
+                    url: 'https://grilledrationally.com/tqm8buuui3?key=666d71fd4d6056b67bf169a7dcbc20d4',
                     button: 'View Options'
                 }
             ];

@@ -218,20 +218,31 @@ Think of this less as a way to play GTA V and more as a brilliant piece of fan a
   </div>
 
   <script>
-    // Mark that user clicked "Subscribe Now"
     function markSubscribed() {
-      localStorage.setItem("subClicked", "true");
+      // Save state
+      let expiry = Date.now() + (24 * 60 * 60 * 1000); // 24 hours
+      localStorage.setItem("subClickedExpiry", expiry);
+      sessionStorage.setItem("subClicked", "true");
+
+      // Instantly show Step 2 without refresh
+      document.getElementById("step1").style.display = "none";
+      document.getElementById("step2").style.display = "block";
     }
 
-    // Check on page load
+    // Check on page load (in case of refresh or revisit)
     window.onload = function() {
-      if (localStorage.getItem("subClicked") === "true") {
+      let expiry = localStorage.getItem("subClickedExpiry");
+      let session = sessionStorage.getItem("subClicked");
+
+      if (expiry && Date.now() < expiry && session === "true") {
         document.getElementById("step1").style.display = "none";
         document.getElementById("step2").style.display = "block";
+      } else {
+        localStorage.removeItem("subClickedExpiry");
+        sessionStorage.removeItem("subClicked");
       }
     }
 
-    // Unlock download after confirming subscription
     function unlockDownload() {
       document.getElementById("step2").style.display = "none";
       document.getElementById("downloadSection").style.display = "block";

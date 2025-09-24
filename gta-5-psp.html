@@ -194,7 +194,50 @@ Think of this less as a way to play GTA V and more as a brilliant piece of fan a
         </section>
         <div id="ad-placeholder"></div>
         <div class="game-actions">
-            <a href="https://ziphynet.com/download/dl-gta-5-psp"><button class="btn primary-btn download-btn"><i class="fas fa-download"></i> Download</button></a>
+            <h2>Subscribe to Unlock Download</h2>
+
+  <!-- Step 1: Subscribe -->
+  <div id="step1">
+    <p>Step 1: Subscribe to my YouTube channel 👇</p>
+    <a href="https://www.youtube.com/@ziphynet?sub_confirmation=1"
+       target="_blank"
+       class="btn subscribe-btn"
+       onclick="markSubscribed()">✅ Subscribe Now</a>
+  </div>
+
+  <!-- Step 2: Unlock (hidden until step 1 is done) -->
+  <div id="step2" style="display:none;">
+    <p>Step 2: After subscribing, click below</p>
+    <button class="btn unlock-btn" onclick="unlockDownload()">I’ve Subscribed – Unlock Download</button>
+  </div>
+
+  <!-- Final Download -->
+  <div id="downloadSection" class="download-link">
+    <h3>🎮 Your Download is Ready</h3>
+    <a href="https://ziphynet.com/download/dl-gta-5-psp" target="_blank">⬇ Download Now</a>
+  </div>
+
+  <script>
+    // Mark that user clicked "Subscribe Now"
+    function markSubscribed() {
+      localStorage.setItem("subClicked", "true");
+    }
+
+    // Check on page load
+    window.onload = function() {
+      if (localStorage.getItem("subClicked") === "true") {
+        document.getElementById("step1").style.display = "none";
+        document.getElementById("step2").style.display = "block";
+      }
+    }
+
+    // Unlock download after confirming subscription
+    function unlockDownload() {
+      document.getElementById("step2").style.display = "none";
+      document.getElementById("downloadSection").style.display = "block";
+    }
+  </script>
+            
             <button class="image-button">
                         <a href="https://whatsapp.com/channel/0029VaXB0b90LKZCIoC39210"><img src="https://ziphynet.com/images/join-whatsapp.webp" alt="Button Image"></a>
                         <a href="https://t.me/ziphyweb/"><img src="https://ziphynet.com/images/join-telegram.webp" alt="Button Image"></a>

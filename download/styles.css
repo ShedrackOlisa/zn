@@ -2340,3 +2340,44 @@ Blog Grid
   .floating-cta{ right: 12px; bottom: 12px; min-width: calc(var(--cta-size) * 1.1); padding: 0 10px; }
   .floating-cta::after{ right: 8px; bottom: 8px; }
 }
+
+.btn {
+      display: inline-block;
+      margin: 15px 0;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .subscribe-btn {
+      background: #ff0000;
+      color: #fff;
+    }
+    .subscribe-btn:hover {
+      background: #cc0000;
+    }
+    .unlock-btn {
+      background: #28a745;
+      color: #fff;
+      border: none;
+    }
+    .unlock-btn:hover {
+      background: #218838;
+    }
+    .download-link {
+      margin-top: 20px;
+      display: none;
+    }
+    .download-link a {
+      background: #007bff;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .download-link a:hover {
+      background: #0056b3;
+    }

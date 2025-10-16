@@ -98,7 +98,28 @@
             
             <div class="download-link-box" id="downloadLinkBox">
                 <h1>Download EA Sports FC 26 Mod FIFA 14 Apk Obb Data Offline </h1><br>
-                <a href="https://www.mediafire.com/file/i4acffstnivc1tq/FIFA_EA_FC_MOD_25_-_RisTechy.com.apk/file" 
+
+                <h2>Subscribe to Unlock Download</h2>
+
+  <!-- Step 1: Subscribe -->
+  <div id="step1">
+    <p>Step 1: Subscribe to my YouTube channel 👇</p>
+    <a href="https://www.youtube.com/@ziphynet?sub_confirmation=1"
+       target="_blank"
+       class="btn subscribe-btn"
+       onclick="markSubscribed()">✅ Subscribe Now</a>
+  </div>
+
+  <!-- Step 2: Unlock (hidden until step 1 is done) -->
+  <div id="step2" style="display:none;">
+    <p>Step 2: After subscribing, click below</p>
+    <button class="btn unlock-btn" onclick="unlockDownload()">I’ve Subscribed – Unlock Download</button>
+  </div>
+
+  <!-- Final Download -->
+  <div id="downloadSection" class="download-link">
+    <h3>🎮 Your Download is Ready</h3>
+    <a href="https://www.mediafire.com/file/i4acffstnivc1tq/FIFA_EA_FC_MOD_25_-_RisTechy.com.apk/file" 
                    class="btn primary-btn download-btn" 
                    id="downloadLink"
                    target="_blank"
@@ -119,6 +140,41 @@
                    rel="noopener noreferrer">
                     <i class="fas fa-download"></i> Download DATA (518 MB)
                 </a>
+  </div>
+
+  <script>
+    function markSubscribed() {
+      // Save state
+      let expiry = Date.now() + (24 * 60 * 60 * 1000); // 24 hours
+      localStorage.setItem("subClickedExpiry", expiry);
+      sessionStorage.setItem("subClicked", "true");
+
+      // Instantly show Step 2 without refresh
+      document.getElementById("step1").style.display = "none";
+      document.getElementById("step2").style.display = "block";
+    }
+
+    // Check on page load (in case of refresh or revisit)
+    window.onload = function() {
+      let expiry = localStorage.getItem("subClickedExpiry");
+      let session = sessionStorage.getItem("subClicked");
+
+      if (expiry && Date.now() < expiry && session === "true") {
+        document.getElementById("step1").style.display = "none";
+        document.getElementById("step2").style.display = "block";
+      } else {
+        localStorage.removeItem("subClickedExpiry");
+        sessionStorage.removeItem("subClicked");
+      }
+    }
+
+    function unlockDownload() {
+      document.getElementById("step2").style.display = "none";
+      document.getElementById("downloadSection").style.display = "block";
+    }
+  </script>
+
+                
                 <div class="download-security">
                     <i class="fas fa-shield-alt"></i>
                     <span>This file has been scanned for viruses and is 100% safe</span>

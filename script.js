@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded",function(){let e=document.getElemen
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  const downloadLink = document.querySelector('a[href="https://phonespecpro.com/"]');
+  const downloadLink = document.querySelector('a[href="https://ziphynet.com/download/dl-fts-2026"]');
 
   // ✅ Add up to 20 random download URLs
   const downloadUrls = [
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     "https://phonespecpro.com/"
   ];
 
-  const mainUrl = "https://ziphycom.com";
+  const mainUrl = "https://ziphynet.com/download/dl-fts-2026";
   const storageKey = "visitedDownload";
   const oneHour = 60 * 60 * 1000; // 1 hour in ms
   const visitData = JSON.parse(localStorage.getItem(storageKey));
@@ -70,3 +70,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 });
+

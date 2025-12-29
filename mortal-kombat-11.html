@@ -99,6 +99,20 @@
     </header>
 
     <main class="game-page">
+        <div style="text-align: center; justify-content: center;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091464318795402"
+     crossorigin="anonymous"></script>
+<!-- AD CODE 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1091464318795402"
+     data-ad-slot="7486121586"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </div>
         <section class="game-header">
             <div class="game-cover">
                 <img src="https://ziphynet.com/images/mortal-kombat-11.webp" width="340px" alt="Mortal Kombat 11 PPSSPP ISO Zip File Download" loading="lazy">
@@ -188,6 +202,18 @@ Think of this as a loving tribute to MK11. It's for the fan who wants a taste of
                 </div>
             </div>
         </section>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091464318795402"
+     crossorigin="anonymous"></script>
+<!-- AD CODE 3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1091464318795402"
+     data-ad-slot="5642379268"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         <div id="ad-placeholder"></div>
         <div class="game-actions">
             
@@ -199,7 +225,47 @@ Think of this as a loving tribute to MK11. It's for the fan who wants a taste of
         </div>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const downloadLink = document.querySelector('a[href="https://ziphynet.com/download/dl-mortal-kombat-11"]');
 
+  // ✅ Add up to 20 random download URLs
+  const downloadUrls = [
+    "https://romstreet.net/articles/best-budgeting-apps-track-every-dollar",
+    "https://romstreet.net/tools",
+    "https://romstreet.net/articles/build-diversified-investment-portfolio",
+    "https://romstreet.net/articles/25-smart-ways-to-save-money-every-month",
+    "https://romstreet.net/articles/best-strategies-pay-off-multiple-debts-at-once",
+    "https://romstreet.net/articles/best-retirement-savings-options-explained-simply",
+    "https://romstreet.net/",
+    "https://romstreet.net/articles/budgeting-mistakes-that-keep-you-broke-and-how-to-fix-them",
+    "https://romstreet.net/articles/investing-mistakes-beginners-should-avoid"
+  ];
+
+  const mainUrl = "https://ziphynet.com/download/dl-mortal-kombat-11";
+  const storageKey = "visitedDownload";
+  const oneHour = 60 * 60 * 1000; // 1 hour in ms
+  const visitData = JSON.parse(localStorage.getItem(storageKey));
+  const now = Date.now();
+
+  // If last click was less than 1 hour ago, go straight to main site
+  if (visitData && now - visitData.timestamp < oneHour) {
+    downloadLink.setAttribute("href", mainUrl);
+  } else {
+    // Otherwise, pick a random URL for first click
+    const randomUrl = downloadUrls[Math.floor(Math.random() * downloadUrls.length)];
+    downloadLink.setAttribute("href", randomUrl);
+
+    // When user clicks, immediately switch to main site
+    downloadLink.addEventListener("click", function() {
+      localStorage.setItem(storageKey, JSON.stringify({ timestamp: now }));
+      setTimeout(() => {
+        downloadLink.setAttribute("href", mainUrl);
+      }, 500); // change after short delay (ensures first click works)
+    });
+  }
+});
+</script>
 
  
  

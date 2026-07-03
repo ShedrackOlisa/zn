@@ -30,8 +30,7 @@
    
          
         
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091464318795402"
-     crossorigin="anonymous"></script>
+    
       
       
     <!-- Google tag (gtag.js) --> 
@@ -120,18 +119,7 @@
         <section class="game-content">
             <div class="h2-line"></div>
             <div class="game-description">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091464318795402"
-     crossorigin="anonymous"></script>
-<!-- ZiphyNet First -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1091464318795402"
-     data-ad-slot="8458813205"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script><br>
+                
             
             
                 
@@ -149,18 +137,7 @@
             
             
             
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091464318795402"
-     crossorigin="anonymous"></script>
-<!-- ZiphyNet Last -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1091464318795402"
-     data-ad-slot="1416864921"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+            
             <div class="requirements">
                 <h3>System Requirements</h3>
                 <div class="requirements-grid">
@@ -186,19 +163,76 @@
             </div>
         </section>
         
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091464318795402"
-     crossorigin="anonymous"></script>
-<!-- ZiphyNet Middle -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1091464318795402"
-     data-ad-slot="6734667994"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+        
         <div id="ad-placeholder"></div>
+        <!-- Responsive YouTube Autoplay on Scroll -->
+<div class="video-container">
+    <div id="player"></div>
+</div>
+
+<style>
+.video-container{
+    width:100%;
+    max-width:900px;
+    margin:20px auto;
+    aspect-ratio:16/9;
+    overflow:hidden;
+    border-radius:12px;
+    background:#000;
+}
+
+.video-container iframe,
+#player{
+    width:100% !important;
+    height:100% !important;
+    display:block;
+}
+</style>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+let player;
+let hasPlayed = false;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+        width: '100%',
+        height: '100%',
+        videoId: 'DpQtW4QitK8',
+        playerVars: {
+            autoplay: 0,
+            mute: 1,
+            controls: 1,
+            rel: 0,
+            playsinline: 1
+        },
+        events: {
+            onReady: initObserver
+        }
+    });
+}
+
+function initObserver() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (!hasPlayed) {
+                    player.seekTo(0);
+                    hasPlayed = true;
+                }
+                player.playVideo();
+            } else {
+                player.pauseVideo();
+            }
+        });
+    }, {
+        threshold: 0.6
+    });
+
+    observer.observe(document.querySelector(".video-container"));
+}
+</script>
         <div class="game-actions">
             
             <a href="https://ziphynet.com/download/dl-ppsspp-pes-2026"><button class="btn primary-btn download-btn"><i class="fas fa-download"></i> Download APK</button></a>

@@ -360,7 +360,18 @@
      MOBILE — export at 800 x 1200 px (2:3 portrait).
      Using your display-ad images for now so nothing 404s. */
   var IMAGES_MOBILE = [
-    'Untitled-3.jpg'
+    '/ads-src/vig-ad-1.jpg',
+    '/ads-src/vig-ad-2.jpg',
+    '/ads-src/vig-ad-3.jpg',
+    '/ads-src/vig-ad-4.jpg',
+    '/ads-src/vig-ad-5.jpg',
+    '/ads-src/vig-ad-6.jpg',
+    '/ads-src/vig-ad-7.jpg',
+    '/ads-src/vig-ad-8.jpg',
+    '/ads-src/vig-ad-9.jpg',
+    '/ads-src/vig-ad-10.jpg',
+    '/ads-src/vig-ad-11.jpg',
+    '/ads-src/vig-ad-12.jpg'
   ];
 
   /* TODO: replace these too.

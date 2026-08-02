@@ -35,14 +35,14 @@
 
   // Your banners. One is picked at random on every page load.
   var IMAGES = [
-    '/ads-src/st-ad-1.jpg',
-    '/ads-src/st-ad-2.jpg',
-    '/ads-src/st-ad-3.jpg',
-    '/ads-src/st-ad-4.jpg',
-    '/ads-src/st-ad-5.jpgg',
-    '/ads-src/st-ad-6.jpg',
-    '/ads-src/st-ad-7.jpg',
-    '/ads-src/st-ad-8.jpg'
+    'https://ziphynet.com/ads-src/st-ad-1.jpg',
+    'https://ziphynet.com/ads-src/st-ad-2.jpg',
+    'https://ziphynet.com/ads-src/st-ad-3.jpg',
+    'https://ziphynet.com/ads-src/st-ad-4.jpg',
+    'https://ziphynet.com/ads-src/st-ad-5.jpg',
+    'https://ziphynet.com/ads-src/st-ad-6.jpg',
+    'https://ziphynet.com/ads-src/st-ad-7.jpg',
+    'https://ziphynet.com/ads-src/st-ad-8.jpg'
   ];
 
   var CONFIG = {
@@ -194,30 +194,36 @@
   /* MOBILE creatives — export at 800 x 500 px (ratio 8:5).
      Shown full width of the screen at 250px tall. */
   var IMAGES_MOBILE = [
-    '/ads-src/ds-ad-1.jpg',
-    '/ads-src/ds-ad-2.jpg',
-    '/ads-src/ds-ad-3.jpg',
-    '/ads-src/ds-ad-4.jpg',
-    '/ads-src/ds-ad-5.jpg',
-    '/ads-src/ds-ad-6.jpg',
-    '/ads-src/ds-ad-7.jpg',
-    '/ads-src/ds-ad-8.jpg',
-    '/ads-src/ds-ad-9.jpg',
-    '/ads-src/ds-ad-10.jpg',
-    '/ads-src/ds-ad-11.jpg',
-    '/ads-src/ds-ad-12.jpg'
+    'https://ziphynet.com/ads-src/ds-ad-1.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-2.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-3.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-4.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-5.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-6.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-7.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-8.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-9.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-10.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-11.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-12.jpg'
   ];
 
   /* DESKTOP creatives — export at 2400 x 560 px (ratio 30:7).
      Shown at 1200 x 280 px, i.e. the same file at half scale
      so it stays sharp on high-density screens. */
   var IMAGES_DESKTOP = [
-    'Untitled-4.jpg',
-    'Untitled-4.jpg',
-    'Untitled-4.jpg',
-    'Untitled-4.jpg',
-    'Untitled-4.jpg',
-    'Untitled-4.jpg'
+    'https://ziphynet.com/ads-src/ds-ad-1.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-2.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-3.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-4.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-5.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-6.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-7.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-8.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-9.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-10.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-11.jpg',
+    'https://ziphynet.com/ads-src/ds-ad-12.jpg'
   ];
 
   var CONFIG = {
@@ -360,24 +366,24 @@
      MOBILE — export at 800 x 1200 px (2:3 portrait).
      Using your display-ad images for now so nothing 404s. */
   var IMAGES_MOBILE = [
-    '/ads-src/vig-ad-1.jpg',
-    '/ads-src/vig-ad-2.jpg',
-    '/ads-src/vig-ad-3.jpg',
-    '/ads-src/vig-ad-4.jpg',
-    '/ads-src/vig-ad-5.jpg',
-    '/ads-src/vig-ad-6.jpg',
-    '/ads-src/vig-ad-7.jpg',
-    '/ads-src/vig-ad-8.jpg',
-    '/ads-src/vig-ad-9.jpg',
-    '/ads-src/vig-ad-10.jpg',
-    '/ads-src/vig-ad-11.jpg',
-    '/ads-src/vig-ad-12.jpg'
+    'https://ziphynet.com/ads-src/vig-ad-1.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-2.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-3.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-4.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-5.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-6.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-7.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-8.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-9.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-10.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-11.jpg',
+    'https://ziphynet.com/ads-src/vig-ad-12.jpg'
   ];
 
   /* TODO: replace these too.
      DESKTOP — export at 1600 x 900 px (16:9 landscape). */
   var IMAGES_DESKTOP = [
-    'Untitled-4.jpg'
+    'https://ziphynet.com/ads-src/ds-ad-1.jpg'
   ];
 
   var CONFIG = {
@@ -408,7 +414,7 @@
 
     /* Used only if <a id="vignetteAdLink"> is missing from the page — some
        CMSes (WordPress in particular) delete empty <a> tags on save. */
-    href: 'https://smallbruisedfollowing.com/tqm8buuui3?key=666d71fd4d6056b67bf169a7dcbc20d4',
+    href: 'https://omg10.com/4/11487319',
 
     /* Turn on, open the browser console, and it will tell you exactly why
        the ad did or didn't appear. Turn off again once it works. */
